@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+
+.ans-head{
+    text-align: center;
+}
+
+#para-primary{
+    background-color:yellowgreen;
+    color: black;
+}
+
+#para-secondary{
+    background-color: tomato;
+    color: black;
+}
