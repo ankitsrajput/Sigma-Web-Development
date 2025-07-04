@@ -1,0 +1,18 @@
+body{
+    background-color: azure;
+}
+
+.bannerImg{
+    height: 80vh;
+    text-align: center;
+}
+
+.tbl{
+    border: 1px solid rebeccapurple;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
