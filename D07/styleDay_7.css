@@ -1,0 +1,34 @@
+body{
+    background-color: aliceblue;
+}
+
+.ans-p{
+    background-color: aquamarine;
+}
+
+.ans-a{
+    background-color: khaki;
+}
+
+.ans-span{
+    background-color: burlywood;
+}
+
+.ans-div{
+    background-color: cornflowerblue;
+}
+
+.ans-span1{
+    background-color: burlywood;
+}
+
+.ans-div1{
+    background-color: cornflowerblue;
+    display: inline;
+}
+
+.ans-a1{
+    color: white;
+    background-color: navy;
+    display: block;
+}
