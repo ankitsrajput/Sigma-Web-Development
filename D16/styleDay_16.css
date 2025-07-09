@@ -1,0 +1,65 @@
+/* Universal Selectors */
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    background-color: bisque;
+}
+
+/* CSS Selectors */
+
+/* Element Selectors */
+div{
+    background-color: aquamarine;
+}
+
+/* Class Selectors */
+.bg-red{
+    background-color: red;    
+    color: whitesmoke;
+}
+
+/* Id Selectors */
+#bg-primary{
+    background-color: chartreuse;
+}
+
+/* Also is a Class Selector */
+.ans-primary-text{
+    color: black;
+    background-color: tomato;
+}
+
+/* Child Selector */
+div > p {
+    color:teal;
+    background-color: powderblue;
+}
+
+/* Descendant Selector */
+div p{
+    color: crimson;
+    background-color: darkgray;
+}
+
+/* Pseudo Selectors */
+a:visited{
+    color: purple;
+}
+
+a:link{
+    color: tomato;
+}
+
+a:active{
+    background-color: thistle;
+}
+
+a:hover{
+    color: red;
+}
+
+p:first-child{
+    background-color: yellowgreen
+}
