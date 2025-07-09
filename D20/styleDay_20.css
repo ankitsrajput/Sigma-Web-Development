@@ -1,0 +1,40 @@
+h1{
+    color: aquamarine;
+}
+.red{
+    color: red;
+}
+
+.purple{
+    color: purple !important;
+}
+
+.green{
+    color: green;
+}
+
+.pink{
+    color: pink;
+}
+
+/* Attribute Selector */
+
+[data-ans = bg-teal]{
+    padding: 10px;
+    background-color: teal;
+}
+
+.white{
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1.blue{
+    color: blue;
+}
+
+a.ans-link.data-ans[href]:hover{
+    color: burlywood;
+    text-decoration: none;
+}
