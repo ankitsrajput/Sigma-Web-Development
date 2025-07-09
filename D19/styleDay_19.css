@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+}
+
+.primary-bg{
+    background-image: url('/imgs/banner-1.jpg');
+    padding: 20px;
+}
+
+div > p:nth-of-type(1) {
+    color: red;
+    background-color: yellow;
+    padding: 10px;
+    font-family: 'poppins';
+}
+
+div > p:nth-of-type(2) {
+    color: whitesmoke;
+    background-color: steelblue;
+    padding: 10px;
+    font-family: 'poppins';
+}
+
+div > p:nth-of-type(3) {
+    color: black;
+    background-color: pink;
+    padding: 10px;
+    font-family: 'poppins';
+}
+
+div > p:nth-of-type(4) {
+    color: snow;
+    background-color: tomato;
+    padding: 10px;
+    font-family: 'poppins';
+}
+
+div > p:nth-of-type(5) {
+    color: springgreen;
+    background-color: crimson;
+    padding: 10px;
+    font-family: 'poppins';
+}
