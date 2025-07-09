@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Bhaina+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    text-align: center;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.baloo-bhai-font {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.poppin-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.poppin-font-100 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+.ans-head-1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 5px;
+    text-indent: 100px;
+}
+
+.blog{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    border: 2px solid greenyellow;
+    width: 60px;
+    overflow: hidden;
+    text-overflow:ellipsis; /* Hide Words & Put Dots */
+}
+
+.blog-1{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    border: 2px solid greenyellow;
+    width: 60px;
+    overflow: hidden;
+    word-break: break-all; /* Breake The Words */
+}
+
+/* Colors CSS Starts Here */
+
+.h2-text{
+    font-family: "Poppins", sans-serif;
+    color: brown;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+
+.color-keyword{
+    color: violet;
+}
+
+.rgba{
+    color: rgb(128, 255, 0, .9);
+}
+
+.rgb{
+    color: rgb(0, 217, 255);
+}
+
+.hex{
+    color: #dc143c;
+}
+
+.hsl{
+    color: hsl(174, 72%, 56%);     
+}
