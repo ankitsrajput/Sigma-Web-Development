@@ -1,0 +1,69 @@
+html{
+    font-size: 12px;
+}
+
+.ans-box{
+
+    border: 1px solid brown;
+    background-color: aquamarine;
+    height: 250px;
+    /* width: 2048px; */
+    width: 91vw;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+.container{
+    border: 1px solid brown;
+    background-color: antiquewhite;
+    height: 250px;
+    /* width: 2048px; */
+    width: 91vw;
+    margin: 20px auto;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* Making Inherited Property Just Double */
+/* .container p{
+    font-size: 2em;
+} */
+
+/* Making Inherited Property Just Double Of Root Element */
+.container p{
+    font-size: 2rem;
+}
+
+
+.ans-cont p{    
+    box-sizing: border-box;
+    border: 1px solid brown;
+    font-size: 16px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    height: 50vmin;
+    width: 200vmin;
+    margin: 20px auto;
+}
+
+.ans-cont-1{
+    box-sizing: border-box;
+    border: 1px solid brown;
+    font-size: 18px;
+    background-color: violet;
+    height: 50vh;
+    width: 200vmin;
+    margin: 20px auto;
+}
+
+.ans-cont-1 > p{
+    width: 50%;
+    text-align: justify;
+}
+
+.ans-cont-1 > p > span{
+    border: 1px solid black;
+    display: block;
+    width: 50%;
+}
