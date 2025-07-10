@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ans-div-1{
+    border: 1px solid olive;
+    background-color: tan;
+    color: black;
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.ans-div-2{
+    border: 1px solid olive;
+    background-color: tan;
+    color: black;
+    display: inline-block;
+    /* display: none; */
+    /* visibility: hidden; */
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.ans-div-3{
+    border: 1px solid olive;
+    background-color: tan;
+    color: black;
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+}
