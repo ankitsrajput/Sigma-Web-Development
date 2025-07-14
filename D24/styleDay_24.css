@@ -1,0 +1,20 @@
+body{
+    background-color: whitesmoke;
+}
+
+nav ul li{
+    list-style: devanagari;
+    background-color: tomato;
+    list-style-position: inside;
+    list-style-image: url("");
+    list-style-type: "✅";
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav{
+    background-color: tomato;
+}
