@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>News Content Card</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  /* Reset and base */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f5f7fa;
+    color: #1f2937;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 32px 16px;
+  }
+  /* Card container */
+  .card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease;
+  }
+  .card:hover,
+  .card:focus-within {
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+    outline: none;
+  }
+  /* Image on top */
+  .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+  }
+  /* Content padding */
+  .card-content {
+    padding: 24px 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  /* Tags container */
+  .tags {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .tags span {
+    background: linear-gradient(135deg, #6ee7b7 0%, #3b82f6 100%);
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 12px;
+    user-select: none;
+  }
+  /* Title styling */
+  .card-content .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    color: #111827;
+  }
+  /* Paragraph content */
+  .card-content .content {
+    font-size: 1rem;
+    color: #4b5563;
+    margin: 0;
+    max-height: 6.6em; /* roughly 4 lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  /* Responsive adjustments */
+  @media (max-width: 640px) {
+    body {
+      padding: 24px 12px;
+      justify-content: center;
+    }
+    .card {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+    .card img {
+      height: 200px;
+    }
+  }
+</style>
+</head>
+<body>
+  <article class="card" tabindex="0" aria-label="News card about Massage Parlour topic">
+    <img src="/imgs/massage.png" alt="Image showing a relaxing massage parlour setup with soft lighting" />
+    <div class="card-content">
+      <div class="tags" aria-label="Tags for this content">
+        <span>#Massage</span>
+        <span>#Parlour</span>
+      </div>
+      <h3 class="title">Hello Viewers</h3>
+      <p class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eum ipsam sed consequatur alias quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, deserunt?
+      </p>
+    </div>
+  </article>
+</body>
+</html>
+
