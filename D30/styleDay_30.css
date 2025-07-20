@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box{
+    height: 20vh;
+    width: 20vw;
+    padding: 10px;
+    margin: 10px;
+    background-color: turquoise;
+    font-size: 75px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* media queries */
+
+
+@media only screen and (max-width: 455px) {
+    body{
+        background-color: coral;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .boxes{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .boxes{
+        border: 2px solid teal;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .boxes{
+        border: 2px solid coral;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .box:nth-child(even){
+        text-align: end;
+    }
+    .box:nth-child(odd){
+        text-align: start;
+    }
+}
