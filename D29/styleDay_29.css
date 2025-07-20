@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Colors */
+
+:root{
+    --primary: plum;
+    --secondary: lightseagreen;
+    --bg-black-1: rgb(24, 22, 22);
+    --bg-black-2: rgb(53 51 51);
+    --bg-light: whitesmoke;
+    --primary-text: #ffffff;
+    --secondary-text: rgb(24, 22, 22);
+    --text-dark: black;
+    --text-light: snow;
+    --mg-1: 2px;
+    --mg-2: 4px;
+    --mg-3: 8px;
+    --mg-4: 12px;
+    --pd-1: 2px;
+    --pd-2: 4px;
+    --pd-3: 8px;
+    --pd-4: 12px;
+}
+
+.primary-container{
+    margin: 15px;
+    padding: 15px;
+    background-color: plum;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    background-color: var(--blue-color, blue);
+    color: var(--text-light);
+}
+
+ul li:first-child{
+    --primary: cyan;
+    background-color: var(--primary);
+    color: var(--secondary-text);
+}
+
+.secondary-container{
+    margin: var(--mg-4);
+    padding: var(--pd-4);
+    background-color: var(--bg-black-1);
+    color: var(--primary-text);
+}
+
+.main-container{
+    margin: var(--mg-4);
+    padding: var(--pd-4);
+    background-color: var(--primary);
+    color: var(--text-light);
+}
+
+.main-cont{
+    background-color: var(--secondary);
+    margin: var(--mg-4);
+    padding: var(--pd-4);
+}
