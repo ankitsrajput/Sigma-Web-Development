@@ -1,0 +1,140 @@
+/* ==============================
+Roboto San Serif Font Import 
+============================== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+:root {
+
+    --primary: #f1c40f;
+    --secondary: #40E0D0;
+    --teritiary: #9FE2BF;
+    --bg-dark-1: #454545;
+    --bg-dark-2: #273746;
+    --primary-text: #000000;
+    --secondary-text: #273746;
+    --teritiary-text: #2c3e50;
+    --bg-dark-brown : rgb(63, 30, 30);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+li{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+a{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+span{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.navbar {
+    background-color: var(--secondary);
+    padding: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.container-1 {
+    display: inline-flex;
+    width: 20%;
+    padding-top: 5px;
+}
+
+.container-2{
+    margin: 0;
+    padding: 0;
+}
+
+.container-2 ul {
+    list-style: none;
+    display: flex;
+    width: 60%;
+}
+
+.container-2 ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 5px;
+}
+
+li{
+    background-color: var(--bg-dark-brown);
+    padding: 15px 15px 15px 15px;
+    color: whitesmoke;
+    transition: 1s;
+}
+
+li:hover{
+    background-color: #ffffff;
+    padding: 15px 15px 15px 15px;
+    color: var(--bg-dark-brown);
+    cursor: pointer;
+    transition: .6s;
+}
+
+.container-3 {
+    margin-left: 20px;
+    border: 1px solid black;
+    line-height: inherit;
+}
+
+.container-3 input[type="text"] {
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+    width: 20vw;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+i{
+    background-color: var(--bg-dark-brown);
+    color: whitesmoke;
+    padding: 10px 15px 10px 15px;
+    vertical-align: middle;
+}
