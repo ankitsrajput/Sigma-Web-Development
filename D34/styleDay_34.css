@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::selection{
+    color: blueviolet;
+    background-color: bisque;
+}
+
+/* Group Selector */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: teal;
+    padding: 10px;
+    display: inline-block;
+}
+
+.boxes{
+    border: 2px solid springgreen;
+    padding: 20px;
+    /* display: flex; */
+}
+/* Universal Selector Use in an element */
+.boxes *{
+    border: 2px solid violet;
+}
+
+.box{
+    height: 25vh;
+    width: 25vw;
+    margin: 20px;
+    padding: 10px;
+}
+
+.box:first-child{
+    background-color: aqua;
+}
+
+.box:nth-child(even){
+    background-color: aquamarine;
+}
+
+.box:nth-child(odd){
+    background-color: turquoise;
+    color: snow;
+}
+
+.box:nth-last-child(2){
+    background-color: violet;
+    color: whitesmoke;
+}
+
+.box::first-line{
+    color: blueviolet;
+}
+
+.box::before{
+    content: "Hello Ankit__";
+}
+
+.box::after{
+    content: "__Bye Ankit";
+}
+
+.box::first-letter{
+    color: aqua;
+    background-color: black;
+    font-size: 24px;
+}
+
+.box input{
+    padding: 10px;
+    background: transparent;
+    color: tomato;
+}
+
+.box input::placeholder{
+    color: tomato;
+}
+
+.box input:focus{
+    outline: none;
+}
+
+
+[data-color="primary"]{
+    color: tomato;
+}
