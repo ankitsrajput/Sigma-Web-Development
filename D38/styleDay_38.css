@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Grid-1 CSS Start Here */
+.container{
+    margin: 20px;
+    border: 2px solid tomato;
+    display: grid;
+    grid-template-columns: [Ist] 120px [IInd]100px [IIIrd];
+    grid-template-rows: 100px 100px 10px;
+}
+
+.item{
+    border: 2px solid blueviolet;
+    height: 55px;
+    width: 55px;
+}
+
+.item-4{
+    grid-row: 1/2;
+    /* you can do also instead of */
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* you can do also instead of */
+    grid-column: Ist/IIIrd;
+    /* grid-column: 1/2; */
+}
+
+.item-5{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+/* Grid-1 CSS Ends Here */
+
+
+/* =========================
+Grid-2 CSS Starts Here
+========================= */
+
+.container-1{
+    margin: 20px;
+    margin-top: 90px;
+    border: 2px solid tomato;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "side article ads"
+                         "footer footer footer";
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(6, 1fr); */
+    /* grid-template-columns: repeat(4, minmax(100px, 1fr)); */
+    /* fr unit used for fraction of total width */
+    /* row-gap: 3px; */
+    /* place-content: center; */
+}
+
+.items{
+    border: 2px solid blueviolet;
+    height: 55px;
+    /* width: 55px; */
+}
+
+.items-1{
+    grid-area: nav;
+    background-color: yellowgreen;
+    /* align-self: start; */
+    /* justify-self: end; */
+}
+
+.items-2{
+    grid-area: side;
+    background-color: aquamarine;
+}
+
+.items-3{
+    grid-area: article;
+    background-color: chartreuse;
+}
+
+.items-4{
+    grid-area: ads;
+    background-color: cornflowerblue;
+}
+
+.items-5{
+    grid-area: footer;
+    background-color: teal;
+}
+
+/* =========================
+Grid-2 CSS Ends Here
+========================= */
