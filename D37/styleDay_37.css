@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary: #FA8072;
+    --secondary: #CD5C5C;
+    --primary-bg: #FFA07A;
+    --secondary-bg: #6e2c00;
+    --bg-dark: #17202a;
+    --primary-text: #ffffff;
+    --secondary-text: #6e2c00;
+}
+.container{
+    height: 80vh;
+    border: 2px solid var(--bg-dark);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-content: center; */
+    /* gap: 30px; */
+    /* row-gap: 20px; */
+    /* column-gap: 10px; */
+    /* gap: 10px 40px; */
+}
+
+.items{
+    height: 20vh;
+    width: 20vw;
+    background-color: var(--primary);
+    margin: 10px;
+    border: 2px solid var(--secondary-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    flex-grow: 1;
+}
+
+.items:nth-child(even){
+    background-color: var(--primary-bg);
+}
+/* Its Take width similer to 2 boxes */
+.items-1{
+    flex-grow: 2;
+    flex-shrink: 2;
+    align-self: flex-end;
+}
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+.order-3{
+    order: 3;
+}
+
+.order-4{
+    order: 4;
+}
+
+.order-5{
+    order: 4;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/D36/styleDay_36.css">
+    <script src="/D36/mainDay_36.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <title>Sigma Web Development - Day-36</title>
+</head>
+
+<body>
+    <!-- Header Start Here -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <!-- <img src="" alt="my-logo"> -->
+                <svg width="200" height="40" viewBox="0 0 227 42" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style="cursor:pointer">
+                    <path
+                        d="M15.878 21.5354L13.9883 24.3701C13.9883 24.3701 4.85441 25.189 1.64182 16.1811C-1.50779 7.17322 7.68906 0.37008 12.8544 1.06299L12.7914 4.27559C11.7206 4.2126 10.7127 4.52756 9.89378 5.09449C9.01189 5.59842 8.31898 6.41732 7.94103 7.3622C6.5552 10.7638 8.25599 14.4803 12.0985 14.9213C16.004 15.3622 19.5946 15.3622 20.9804 16.559L18.2717 19.0157C16.8859 18.3858 15.3741 18.1338 13.8623 18.2598C10.9017 18.2598 6.17725 17.8189 4.41347 11.3307C4.41347 11.3307 2.33473 21.0315 15.878 21.5354Z"
+                        fill="#0CA750"></path>
+                    <path
+                        d="M36.6654 30.0394V26.7638C36.6654 26.7638 27.2166 26.5118 26.5237 37.1575C26.5237 37.3464 26.3977 37.5354 26.2717 37.7244C26.0827 37.8504 25.8938 37.9764 25.6418 37.9764H24.8859V41.6929C25.8938 41.6929 26.9016 41.3779 27.7205 40.748C28.5394 40.1811 29.1694 39.2992 29.4843 38.3543C30.6812 34.8268 29.3583 30.9842 36.6654 30.0394Z"
+                        fill="#0CA750"></path>
+                    <path
+                        d="M15.878 21.5354L13.9883 24.3701C13.9883 24.3701 4.85441 25.189 1.64182 16.1811C-1.50779 7.17322 7.68906 0.37008 12.8544 1.06299L12.7914 4.27559C11.7206 4.2126 10.7127 4.52756 9.89378 5.09449C9.01189 5.59842 8.31898 6.41732 7.94103 7.3622C6.5552 10.7638 8.25599 14.4803 12.0985 14.9213C16.004 15.3622 19.5946 15.3622 20.9804 16.559L18.2717 19.0157C16.8859 18.3858 15.3741 18.1338 13.8623 18.2598C10.9017 18.2598 6.17725 17.8189 4.41347 11.3307C4.41347 11.3307 2.33473 21.0315 15.878 21.5354Z"
+                        stroke="#0CA750" stroke-width="0.199865"></path>
+                    <path
+                        d="M20.1615 26.3228C20.1615 26.3228 23.0591 21.9134 27.4056 20.0866C31.752 18.1968 33.1379 18.2598 34.7757 18.2598C36.3505 18.2598 42.3977 18.4488 44.2245 11.3307C44.4134 12.5905 44.3504 13.8504 44.0355 15.1102C43.6575 16.3701 43.0276 17.5039 42.0827 18.4488C39.0591 21.5354 37.1694 21.0945 33.7678 21.2835C30.3032 21.5354 24.8859 23.8031 22.3662 28.4016L24.6969 30.4803C24.6969 30.4803 28.3505 24.811 34.4607 24.3701C40.5079 23.9291 42.0197 24.0551 45.8623 18.6378C49.6418 13.2205 47.563 1.94488 36.0355 1V4.08661C36.0355 4.08661 40.13 4.59055 40.9489 8.11811C41.7678 11.7087 39.878 14.7953 36.0355 14.7953C32.256 14.7953 28.4764 15.7401 25.2009 17.5669C21.8623 19.3937 19.0276 22.0394 17.0119 25.3149L20.1615 26.3228Z"
+                        fill="#0CA750" stroke="#0CA750" stroke-width="0.199865"></path>
+                    <path
+                        d="M36.6654 30.0394V26.7638C36.6654 26.7638 27.2166 26.5118 26.5237 37.1575C26.5237 37.3464 26.3977 37.5354 26.2717 37.7244C26.0827 37.8504 25.8938 37.9764 25.6418 37.9764H24.8859V41.6929C25.8938 41.6929 26.9016 41.3779 27.7205 40.748C28.5394 40.1811 29.1694 39.2992 29.4843 38.3543C30.6812 34.8268 29.3583 30.9842 36.6654 30.0394Z"
+                        stroke="#0CA750" stroke-width="0.199865"></path>
+                    <path
+                        d="M13.2324 30.0394V26.7638C13.2324 26.7638 22.6812 26.5118 23.3741 37.1575C23.3741 37.3464 23.5001 37.5354 23.6261 37.7244C23.815 37.8504 24.004 37.9764 24.256 37.9764H24.9489V41.6929C23.941 41.6929 22.9331 41.3779 22.1142 40.748C21.2953 40.1811 20.6654 39.2992 20.4135 38.3543C19.2166 34.8268 20.5394 30.9842 13.2324 30.0394Z"
+                        fill="#0CA750"></path>
+                    <path
+                        d="M13.2324 30.0394V26.7638C13.2324 26.7638 22.6812 26.5118 23.3741 37.1575C23.3741 37.3464 23.5001 37.5354 23.6261 37.7244C23.815 37.8504 24.004 37.9764 24.256 37.9764H24.9489V41.6929C23.941 41.6929 22.9331 41.3779 22.1142 40.748C21.2953 40.1811 20.6654 39.2992 20.4135 38.3543C19.2166 34.8268 20.5394 30.9842 13.2324 30.0394Z"
+                        stroke="#0CA750" stroke-width="0.199865"></path>
+                    <path
+                        d="M61.9496 33.2349C59.3104 33.2349 57.1111 32.5978 55.4144 31.3873C53.7178 30.1131 52.7752 28.2654 52.6495 25.8444H60.0016C60.1273 27.1186 60.6929 27.7557 61.6983 27.7557C62.0753 27.7557 62.3895 27.692 62.6409 27.5009C62.8922 27.3097 63.0179 27.0549 63.0179 26.6726C63.0179 26.0992 62.7665 25.7169 62.201 25.3984C61.6354 25.0161 60.7557 24.6975 59.5618 24.2516C58.1165 23.7419 56.9854 23.2322 56.0428 22.7862C55.1002 22.2765 54.3462 21.5757 53.6549 20.62C52.9637 19.728 52.6495 18.5175 52.7124 17.0521C52.7124 15.5867 53.0266 14.3762 53.7806 13.3568C54.5347 12.3374 55.5401 11.5092 56.7969 10.9995C58.1165 10.4898 59.5618 10.2349 61.1327 10.2349C63.8348 10.2349 66.0341 10.8721 67.6051 12.0826C69.1761 13.3568 70.0558 15.1408 70.1186 17.4981H62.6409C62.6409 16.861 62.4523 16.3513 62.201 16.0964C61.8868 15.8416 61.5098 15.7142 61.1327 15.7142C60.8185 15.7142 60.5672 15.7779 60.3787 15.969C60.1901 16.2239 60.1273 16.4787 60.1273 16.861C60.1273 17.3707 60.3787 17.7529 60.9442 18.0715C61.5098 18.3901 62.3895 18.8361 63.5834 19.282C64.9659 19.7917 66.1598 20.3014 67.0396 20.8111C67.9193 21.2571 68.7362 21.9579 69.4274 22.8499C70.0558 23.6782 70.4328 24.7613 70.4328 26.0992C70.4328 27.4372 70.0558 28.7114 69.4274 29.7945C68.7362 30.8776 67.7936 31.7059 66.474 32.343C65.2172 32.9164 63.7091 33.2349 61.9496 33.2349ZM90.227 10.6172V16.1602H84.3202V33.0438H77.4079V16.1602H71.5639V10.6172H90.227ZM102.858 33.2349C100.784 33.2349 98.8987 32.7252 97.1392 31.7696C95.3797 30.7502 93.9973 29.4122 92.9919 27.6283C91.9865 25.9081 91.4838 23.933 91.4838 21.7031C91.4838 19.5369 91.9865 17.5618 92.9919 15.7779C93.9973 14.0577 95.3797 12.656 97.1392 11.7003C98.8987 10.6809 100.784 10.2349 102.858 10.2349C104.931 10.2349 106.879 10.6809 108.576 11.7003C110.335 12.656 111.655 14.0577 112.723 15.7779C113.729 17.5618 114.231 19.5369 114.231 21.7031C114.231 23.933 113.729 25.9081 112.723 27.6283C111.655 29.4122 110.335 30.7502 108.576 31.7696C106.816 32.7252 104.931 33.2349 102.858 33.2349ZM102.858 26.6726C104.24 26.6726 105.308 26.2266 106.062 25.3347C106.816 24.4427 107.193 23.2322 107.193 21.7031C107.193 20.174 106.816 18.9635 106.062 18.0715C105.308 17.1795 104.24 16.7336 102.858 16.7336C101.475 16.7336 100.407 17.1795 99.6528 18.0715C98.8987 18.9635 98.5217 20.174 98.5217 21.7031C98.5217 23.2322 98.8987 24.4427 99.6528 25.3347C100.407 26.2266 101.475 26.6726 102.858 26.6726ZM153.945 33.0438L147.536 23.2959V33.0438H140.561V10.6172H147.536V20.0466L153.882 10.6172H161.674L154.071 21.3208L162.177 33.0438H153.945ZM178.327 29.6034H170.975L169.906 33.0438H162.617L170.723 10.6172H178.704L186.747 33.0438H179.458L178.327 29.6034ZM176.693 24.3153L174.682 18.0715L172.671 24.3153H176.693ZM199.44 33.0438L195.293 24.9524H195.23V33.0438H188.318V10.6172H198.624C200.446 10.6172 201.954 10.9358 203.211 11.5729C204.467 12.21 205.473 13.102 206.101 14.1851C206.73 15.2682 207.044 16.5424 207.044 17.9441C207.044 19.4732 206.604 20.7474 205.787 21.9579C204.97 23.1047 203.776 23.933 202.268 24.4427L207.044 33.0438H199.44ZM195.23 20.3014H197.995C198.686 20.3014 199.189 20.1103 199.503 19.8554C199.817 19.5369 200.006 19.0272 200.006 18.3901C200.006 17.8167 199.817 17.307 199.503 16.9884C199.126 16.6698 198.624 16.4787 197.995 16.4787H195.23V20.3014ZM226.65 10.6172V16.1602H220.743V33.0438H213.83V16.1602H207.986V10.6172H226.65Z"
+                        fill="#222448"></path>
+                    <path
+                        d="M130.417 33.2349L126.301 27.4849L122.882 33.2349H114.966L122.248 21.8599L114.65 11.2349H122.882L126.808 16.7349L130.101 11.2349H138.08L130.861 22.3599L138.65 33.2349H130.417Z"
+                        fill="#0CA750"></path>
+                </svg>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-icon">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End Here -->
+    <!-- Section Starts Here -->
+    <section class="section">
+        <div class="row">
+            <div class="col-12 col-md-1">
+                <div class="col-6 col-sm-1">
+                    <img src="/imgs/banner-1.jpg" alt="img-1">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aspernatur pariatur officiis
+                        voluptates tenetur deleniti maiores sed perferendis quaerat, libero odit eius modi sapiente qui
+                        ea. Molestiae ad facilis id necessitatibus eaque nemo? Dignissimos a odit dolorum tenetur unde
+                        tempora, quod voluptatem et dolores quidem vero nihil facilis, dolore ipsum.
+                    </div>
+                    <div class="read-more">
+                        <input type="button" value="Read More">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-2">
+                    <img src="/imgs/banner-1.jpg" alt="img-2">
+                    <div class="content">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa tenetur, totam voluptas nostrum
+                        nemo ratione odio repellat magni modi, mollitia perferendis ea maxime hic ipsam accusantium
+                        doloribus at quos molestiae nobis commodi, laudantium repellendus. Cumque non exercitationem
+                        iste impedit autem modi recusandae quas dolore inventore. Soluta esse architecto eos iste?
+                    </div>
+                    <div class="read-more">
+                        <input type="button" value="Read More">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Ends Here -->
+    <section class="section">
+        <div class="row">
+            <div class="col-12 col-md-1">
+                <h1 class="primary-text text-center poppins">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum recusandae eum nesciunt similique
+                    non, officiis accusamus quibusdam tenetur, ipsum numquam voluptates ut officia? Placeat maxime ab
+                    perferendis molestiae, aperiam praesentium.
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="row shadow-dark">
+            <div class="col-6 col-sm-1">
+                <img src="/imgs/massage.png" alt="massage" srcset="">
+            </div>
+            <div class="col-6 col-sm-2">
+                <p class="text-justify font-lg pl-sm pr-sm pt-sm pb-sm">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores voluptatum temporibus libero laborum nemo assumenda facilis maxime! Recusandae soluta nemo dolore ratione, perspiciatis adipisci deleniti officiis dolor illum voluptatem? Facere minus illo vitae, repudiandae doloremque sequi non ea dolore, deleniti, ipsum cupiditate cumque dolorem facilis quia distinctio modi in asperiores?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div id="goto-top"><i class="fa fa-arrow-up"><a href="#"></a></i></div>
+
+    <footer>
+        <div class="copyright col-6">
+            <p>Copyright &copy; Ankit Singh Rajput</p>
+        </div>
+        <div class="terms col-6"><span><a href="#">Terms & Conditions</a></span> &nbsp;&nbsp; <span><a href="#">Privacy
+                    Policy</a></span></div>
+    </footer>
+</body>
+
+</html>
