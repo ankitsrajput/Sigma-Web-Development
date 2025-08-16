@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 164px;
+}
+
+.logo img{
+    width: 164px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 34px;
+}
+
+.menu ul li{
+    list-style: none;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

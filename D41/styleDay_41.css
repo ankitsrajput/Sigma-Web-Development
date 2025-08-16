@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 80vh;
+    width: 90vw;
+    border: 2px solid purple;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    border: 1px solid black;
+    /* transform: rotate(10deg); */
+    transform: rotate(0.25turn);
+}
+
+.box-2{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    border: 1px solid black;
+    /* transform: rotate(10deg); */
+    transform: rotate(0.5turn);
+}
+
+.box-3{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    border: 1px solid black;
+    /* transform: rotate(10deg); */
+    transform: rotate(0.75turn);
+}
+
+.box-4{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    border: 1px solid black;
+    /* transform: rotate(10deg); */
+    transform: rotate(1turn);
+}
+
+.box-5{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px purple;
+    transform: rotateX(30deg);
+}
+
+.box-5:hover{
+    transform: rotateX(50deg);
+}
+
+.box-6{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px purple;
+    transform: rotateY(30deg);
+}
+
+.box-6:hover{
+    transform: rotateY(50deg);
+}
+
+.box-7{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px purple;
+    transform: rotateZ(30deg);
+}
+
+.box-7:hover{
+    transform: rotateZ(50deg);
+}
+
+.box-8{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px purple;
+    transition: .4s;
+}
+
+.box-8:hover{
+    transform: scale(1.2);
+    /* transform: scaleX(1.2); */
+    /* transform: scaleY(1.2); */
+    /* transform: scaleZ(1.2); */
+    /* transform: scale3d(1.3); */
+}
+
+.box-9{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px purple;
+    transition: .4s;
+    /* transform: skew(5deg); */
+}
+
+.box-9:hover{
+    transform: scale(1.2);
+    /* transform: scaleX(1.2); */
+    /* transform: scaleY(1.2); */
+    /* transform: scaleZ(1.2); */
+    /* transform: scale3d(1.3); */
+    /* transform: skew(10deg); */
+    /* transform: skewX(20deg); */
+    transform: skewY(15deg);
+}
+
+.box-10{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px purple;
+    transition: .4s;
+}
+
+.box-10:hover{
+    /* transform: translate(20px); */
+    /* transform: translateX(20px); */
+    transform: translateY(20px);
+    /* transform: translateZ(20px); */
+    /* transform: translate3d(20px); */
+}
+
+.box-11{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px purple;
+    transition: .4s;
+}
+
+.box-11:hover{
+    transform: translateY(100%) skew(40deg) translate(45%);
+}
+
+.box-12{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px purple;
+    transition: .4s;
+    transform: rotate(0.125turn);
+    transform-origin: 0% 0%;
+}
+
+.box-12:hover{
+    transform: translateY(100%) skew(40deg) translate(45%);
+}
