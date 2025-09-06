@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 92vh;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.ball{
+    display: inline;
+    position: fixed;
+    bottom: 27px;
+    left: 40px;
+    padding: 30px;
+    background-color: teal;
+    color: white;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500    ;
+    letter-spacing: 2px;
+    border-radius: 100%;
+}
+
+.ball{
+    animation-name: bounceBall;
+    animation-name: forwordBall;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes forwordBall{
+    0%{
+        transform: translateY(-20vh) translateX(0px);
+    }
+    20%{
+        transform: translateY(0vh) translateX(20vw);
+    }
+    40%{
+        transform: translateY(-20vh) translateX(40vw);
+    }
+    60%{
+        transform: translateY(0vh) translateX(60vw);
+    }
+    80%{
+        transform: translateY(-20vh) translateX(80vw);
+    }
+    100%{
+        transform: translateY(0vh) translateX(100vw);
+    }
+}
