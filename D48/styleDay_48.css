@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+}
+
+.container{
+    background-color: azure;
+    border: 1px solid black;
+    height: 280px;
+    width: 360px;
+    margin: 10px;
+}
+
+.container img{
+    height: 280px;
+    width: 360px;
+    object-fit: cover;
+    /* object-fit: none; */
+    /* object-position: 10px 20px; */
+    /* object-position: bottom right; */
+    /* object-fit: contain; */
+    /* object-fit: scale-down; */
+    /* object-fit: fill; [ default-property ] */
+}
+
+.container-1{
+    background-image: url("/imgs/marvel-1.png");
+    background-position: top right;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    border: 1px solid black;
+    height: 280px;
+    width: 360px;
+    margin: 10px;
+}
