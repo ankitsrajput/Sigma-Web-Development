@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container{
+    margin: 20px;
+}
+
+.container :nth-child(1) {
+    height: 200px;
+    width: 300px;
+    filter: blur(2px);
+}
+
+.container :nth-child(2){
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    filter: brightness(200%) contrast(5.5);
+}
+
+.container :nth-child(3){
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.container :nth-child(4){
+    height: 200px;
+    width: 300px;
+    filter: sepia(100%);
+}
+
+.container :nth-child(5){
+    height: 200px;
+    width: 300px;
+    filter: invert(1);
+}
