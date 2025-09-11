@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container{
+    background-color: burlywood;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+}
+
+.ball{
+    background-color: chocolate;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    height: 100px;
+    width: 100px;
+    animation: animateX 3s linear infinite, animateY 1s ease-out infinite alternate;
+}
+
+@keyframes animateX{
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes animateY{
+    from{
+        bottom: 0;
+    }
+    to{
+        bottom: 100%;
+    }
+}
