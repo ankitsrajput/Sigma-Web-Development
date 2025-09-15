@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 20px;
+}
+
+.container a{
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: red;
+}
+
+.container a:hover{
+    color: yellowgreen;
+}
+
+.container a:visited{
+    color: blue;
+}
