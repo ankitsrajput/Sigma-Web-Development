@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/D72/style.css">
+    <title>Javascript - Dynamic Website Builder</title>
+</head>
+
+<body>
+    <h1>Dynamic Website Builder..!</h1>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <div class="img">
+                    <img src="/imgs/tct.jpg" alt="thumbnail">
+                    <span class="dur">31:08</span>
+                </div>
+                <h3>Images, List & Tables in HTML5</h3>
+                <p>Explaining about Image, List & Tables in HTML | Sigma Web Development Course - Tutorial</p>
+                <div class="chInfo">
+                    <span class="channelName">TheCodeTrek</span>
+                    <span class="views">765890 views</span>
+                    <span class="releasedTime">2 Year Ago</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-container">
+        <h2>Add New Card</h2>
+        <div id="cardForm">
+            <input type="text" id="imgSrc" placeholder="Paste Img URL Here(/imgs/yourimg.jpg/https://...)" required>
+            <input type="text" id="duration" placeholder="Video Duration(e.g., 12:34)" required>
+            <input type="text" id="title" placeholder="Video Title" required>
+            <input type="text" id="description" placeholder="Video Description" required>
+            <input type="text" id="channelName" placeholder="Channel Name" required>
+            <input type="text" id="views" placeholder="Views" required>
+            <input type="text" id="releasedTime" placeholder="Released Time" required>
+        </div>
+        <button class="add-cardBtn" onclick="addCardForm()">Add New</button>
+    </div>
+
+    <script src="/D72/script.js"></script>
+</body>
+
+</html>
