@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: lightsalmon;
+}
+
+.child{
+    background-color: lightseagreen;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.child-container{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #000;   
+    display: block;
+}
