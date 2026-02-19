@@ -1,0 +1,29 @@
+/* Import Font CSS File */
+@import "fonts.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif; */
+}
+
+body{
+    background-color: #fff;
+}
+
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+
+.right{
+    width: 75vw;
+}
+
+.home ul li{
+    display: flex;
+    list-style: none;
+    width: 25px;
+    gap: 14px;
+}
