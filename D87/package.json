@@ -1,0 +1,16 @@
+{
+  "name": "Express-Tutorial",
+  "version": "1.0.0",
+  "description": "Learn ExpressJs",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ankit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
