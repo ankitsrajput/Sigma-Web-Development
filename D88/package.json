@@ -1,0 +1,15 @@
+{
+  "name": "Handling GET, POST & Other Requests in ExpressJs",
+  "version": "1.0.0",
+  "description": "Handling GET, POST & Other Requests and routing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ankit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
