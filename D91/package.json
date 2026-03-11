@@ -1,0 +1,20 @@
+{
+  "name": "ejs-template",
+  "version": "1.0.0",
+  "description": "eJs Template Engine",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejs",
+    "template",
+    "engine"
+  ],
+  "author": "Ankit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}
